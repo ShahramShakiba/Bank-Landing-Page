@@ -14,7 +14,7 @@
     <header>
       <nav class="container flex justify-between items-center">
         <!--logo-->
-        <div class="py-5 w-40 sm:w-44 md:w-48 lg:w-52">
+        <div class="py-5 w-36 sm:w-40 md:w-44 xl:w-52">
           <a href="#home">
             <img
               src="./assets/dark-amber-transparent.png"
@@ -26,7 +26,7 @@
 
         <!----Nav-items--------->
         <div>
-          <ul class="flex items-center space-x-6">
+          <ul class="hidden lg:flex items-center space-x-6">
             <li>
               <a href="#home" class="hover:text-amber-400 ease duration-200">
                 Home
@@ -78,7 +78,101 @@
             </li>
           </ul>
         </div>
+
+        <!--hamburger-icon-->
+        <div
+          id="hamburger"
+          class="lg:hidden cursor-pointer hover:text-amber-300 ease-linear duration-200"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 hamburger"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+            />
+          </svg>
+        </div>
+
+        <!--hamburger-menu-->
+        <div id="menu" class="hidden bg-neutral-950 h-[100vh] absolute inset-0">
+          <ul class="h-full grid place-items-center py-12">
+            <li>
+              <a href="#home" class="hover:text-amber-400 ease duration-200">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#features"
+                class="hover:text-amber-400 ease duration-200"
+              >
+                Features
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#testimonial"
+                class="hover:text-amber-400 ease duration-200"
+              >
+                Testimonial
+              </a>
+            </li>
+
+            <li>
+              <a href="#pricing" class="hover:text-amber-400 ease duration-200">
+                Pricing
+              </a>
+            </li>
+
+            <li>
+              <a href="#blog" class="hover:text-amber-400 ease duration-200">
+                Blog
+              </a>
+            </li>
+
+            <li>
+              <a href="#contact" class="hover:text-amber-400 ease duration-200">
+                Contact
+              </a>
+            </li>
+
+            <li>
+              <button
+                class="bg-amber-400 text-neutral-700 px-4 py-2 rounded-md capitalize font-bold hover:opacity-80 ease duration-200"
+              >
+                Free Trial
+              </button>
+            </li>
+          </ul>
+
+          <!--close-icon-->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="close w-7 h-7 text-white absolute top-8 right-12 cursor-pointer hover:text-amber-300 ease-linear duration-200"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
       </nav>
     </header>
+
+    <script src="index.js"></script>
   </body>
 </html>
