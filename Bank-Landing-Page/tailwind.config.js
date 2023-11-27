@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./*.{html,js}'],
+
   theme: {
     extend: {
       colors: {
@@ -13,6 +14,16 @@ module.exports = {
         'color-blob': '#A427DF',
       },
     },
+
+    container: {
+      center: true,
+
+      padding: {
+        DEFAULT: '20px',
+        md: '90px',
+      },
+    },
   },
+  
   plugins: [],
 };
