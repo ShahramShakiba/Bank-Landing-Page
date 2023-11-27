@@ -10,7 +10,6 @@ module.exports = {
         'color-primary-dark': '#010417',
         'color-secondary': '#ff7d3b',
         'color-gray': '#333',
-        'color-white': '#fff',
         'color-blob': '#A427DF',
       },
     },
@@ -24,6 +23,6 @@ module.exports = {
       },
     },
   },
-  
+
   plugins: [],
 };

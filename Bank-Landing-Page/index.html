@@ -9,46 +9,72 @@
 
     <title>Bank Landing Page</title>
   </head>
-  <body>
+  <body class="bg-neutral-900 text-white tracking-wider">
     <!--===== Header ======================-->
     <header>
-      <nav class="container">
+      <nav class="container flex justify-between items-center">
         <!--logo-->
-        <div>
+        <div class="py-5 w-40 sm:w-44 md:w-48 lg:w-52">
           <a href="#home">
-            <img src="./assets/dark-amber-transparent.png" alt="logo" />
+            <img
+              src="./assets/dark-amber-transparent.png"
+              alt="logo"
+              class="hover:opacity-80 ease duration-200"
+            />
           </a>
         </div>
 
         <!----Nav-items--------->
         <div>
-          <ul>
+          <ul class="flex items-center space-x-6">
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" class="hover:text-amber-400 ease duration-200">
+                Home
+              </a>
             </li>
 
             <li>
-              <a href="#features">Features</a>
+              <a
+                href="#features"
+                class="hover:text-amber-400 ease duration-200"
+              >
+                Features
+              </a>
             </li>
 
             <li>
-              <a href="#testimonial">Testimonial</a>
+              <a
+                href="#testimonial"
+                class="hover:text-amber-400 ease duration-200"
+              >
+                Testimonial
+              </a>
             </li>
 
             <li>
-              <a href="#pricing">Pricing</a>
+              <a href="#pricing" class="hover:text-amber-400 ease duration-200">
+                Pricing
+              </a>
             </li>
 
             <li>
-              <a href="#blog">Blog</a>
+              <a href="#blog" class="hover:text-amber-400 ease duration-200">
+                Blog
+              </a>
             </li>
 
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" class="hover:text-amber-400 ease duration-200">
+                Contact
+              </a>
             </li>
 
             <li>
-              <button>Free Trial</button>
+              <button
+                class="bg-amber-400 text-neutral-700 px-4 py-2 rounded-md capitalize font-bold hover:opacity-80 ease duration-200"
+              >
+                Free Trial
+              </button>
             </li>
           </ul>
         </div>
