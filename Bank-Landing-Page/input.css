@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*---Reusing Styles ------------*/
+@layer components {
+  .btn-primary {
+    @apply bg-amber-400 text-neutral-700 px-4 py-2 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200;
+  }
+
+  .title {
+    @apply text-3xl md:text-4xl font-bold leading-snug mb-2 md:mb-4;
+  }
+}
