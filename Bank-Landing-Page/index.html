@@ -105,7 +105,7 @@
           id="menu"
           class="hidden bg-neutral-800 h-[100vh] absolute inset-0 lg:hidden py-20"
         >
-          <ul class="h-full grid place-items-center ">
+          <ul class="h-full grid place-items-center">
             <li>
               <a href="#home" class="hover:text-amber-400 ease duration-200">
                 Home
@@ -172,18 +172,18 @@
       </nav>
     </header>
 
-    <!--======= Main ===========================-->
     <main>
+      <!--======= Hero ===========================-->
       <section id="home">
-        <div class="container py-20 ">
+        <div class="container py-20">
           <div class="relative">
             <!--left-blob----->
             <div
-              class="w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-color-blob absolute -top-20 xl:-top-6 left-0 md:left-0 xl:left-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
+              class="w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-color-blob absolute -top-20 xl:-top-6 left-0 md:left-0 xl:left-0 -z-10 blur-3xl opacity-30 overflow-hidden rounded-full"
             ></div>
             <!--right-blob---->
             <div
-              class="w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-amber-300 absolute top-[35rem] md:top-40 xl:top-72 right-10 md:right-0 lg:right-10 xl:right-6 -z-10 blur-2xl opacity-20 overflow-hidden rounded-full"
+              class="w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-amber-300 absolute top-[35rem] md:top-40 xl:top-72 right-10 md:right-0 lg:right-10 xl:right-6 -z-10 blur-3xl opacity-20 overflow-hidden rounded-full"
             ></div>
           </div>
 
@@ -204,6 +204,111 @@
             <!-----Image---------->
             <div class="md:w-1/2">
               <img src="assets/hero4.png" alt="Mobile app with a wallet" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--======= Features ========================-->
+      <section id="features" class="">
+        <div class="container py-20">
+          <!--content-->
+          <div class="text-center m-auto mb-20 md:w-1/2">
+            <h4 class="font-bold text-2xl text-amber-400 mb-4">Our Features</h4>
+
+            <h1 class="title">Easy To Manage Your All Payments By Our App</h1>
+          </div>
+
+          <!-------cards----------------------->
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 px-4 sm:px-6 lg:px-8"
+          >
+            <!--Expense-Tracking------>
+            <div
+              class="border-2 border-amber-300 text-center py-14 px-8 md:px-4 xl:px-8 rounded-2xl cursor-pointer hover:bg-stone-900 ease-in duration-200"
+            >
+              <!--calender-->
+              <div class="text-amber-400 inline-block rounded-2xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-20 h-20"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
+                  />
+                </svg>
+              </div>
+
+              <h3 class="text-xl font-bold py-4">Expense Tracking</h3>
+              <p class="leading-relaxed">
+                Our expense tracking feature of the application allows users to
+                categorize their expenses and monitor their spending habits.
+              </p>
+            </div>
+
+            <!--Finance-Snapshot------>
+            <div
+              class="border-2 border-amber-300 text-center items-start py-14 px-8 md:px-4 xl:px-8 rounded-2xl cursor-pointer hover:bg-stone-900 ease-in duration-200"
+            >
+              <!--chart-->
+              <div class="text-amber-400 inline-block rounded-2xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-20 h-20"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"
+                  />
+                </svg>
+              </div>
+
+              <h3 class="text-xl font-bold py-4">Finance Snapshot</h3>
+              <p class="leading-relaxed">
+                Our finance snapshot is a user-friendly and intuitive
+                application that allows users to easily track their expenses and
+                manage their finances.
+              </p>
+            </div>
+
+            <!--Support-24/7------>
+            <div
+              class="border-2 border-amber-300 text-center py-14 px-8 md:px-4 xl:px-8 rounded-2xl cursor-pointer hover:bg-stone-900 ease-in duration-200"
+            >
+              <!--calender-->
+              <div class="text-amber-400 inline-block rounded-2xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-20 h-20"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                  />
+                </svg>
+              </div>
+
+              <h3 class="text-xl font-bold py-4">Support 24/7</h3>
+              <p class="leading-relaxed">
+                We provides support 24/7 to ensure that users can get assistance
+                with any issues they encounter at any time.
+              </p>
             </div>
           </div>
         </div>
