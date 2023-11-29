@@ -10,7 +10,7 @@
     <title>Bank Landing Page</title>
   </head>
   <body class="bg-neutral-800 text-white tracking-wider">
-    <!--===== Header =======================-->
+    <!--======== Header =========================-->
     <header>
       <nav class="container flex justify-between items-center">
         <!--logo-->
@@ -103,9 +103,9 @@
         <!--hamburger-menu------>
         <div
           id="menu"
-          class="hidden bg-neutral-900 h-[100vh] absolute inset-0 lg:hidden"
+          class="hidden bg-neutral-800 h-[100vh] absolute inset-0 lg:hidden py-20"
         >
-          <ul class="h-full grid place-items-center py-12">
+          <ul class="h-full grid place-items-center ">
             <li>
               <a href="#home" class="hover:text-amber-400 ease duration-200">
                 Home
@@ -160,7 +160,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="close w-7 h-7 text-white absolute top-8 right-6 md:right-24 lg:right-60 cursor-pointer hover:text-amber-300 ease-linear duration-200"
+            class="close w-7 h-7 text-white absolute top-8 right-6 sm:right-10 md:right-36 cursor-pointer hover:text-amber-300 ease-linear duration-200"
           >
             <path
               stroke-linecap="round"
@@ -172,21 +172,23 @@
       </nav>
     </header>
 
-    <!--===== Main =========================-->
+    <!--======= Main ===========================-->
     <main>
       <section id="home">
-        <div class="container py-20 relative">
-          <!--left-blob---->
-          <div
-            class="w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-color-blob absolute top-0 xl:-top-6 -left-5 md:left-0 xl:left-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
-          ></div>
-          <!--right-blob---->
-          <div
-            class="w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-amber-300 absolute bottom-10 right-10 lg:right-20 xl:right-16 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
-          ></div>
+        <div class="container py-20 ">
+          <div class="relative">
+            <!--left-blob----->
+            <div
+              class="w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-color-blob absolute -top-20 xl:-top-6 left-0 md:left-0 xl:left-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"
+            ></div>
+            <!--right-blob---->
+            <div
+              class="w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-amber-300 absolute top-[35rem] md:top-40 xl:top-72 right-10 md:right-0 lg:right-10 xl:right-6 -z-10 blur-2xl opacity-20 overflow-hidden rounded-full"
+            ></div>
+          </div>
 
-          <div class="flex flex-col items-center z-20 md:flex-row">
-            <!----Content------->
+          <div class="flex flex-col items-center z-0 md:flex-row">
+            <!-----Content--------->
             <div class="mb-12 md:w-1/2 md:mr-10">
               <h1 class="title">Awesome App for Your Financial.</h1>
 
@@ -199,7 +201,7 @@
               <button class="btn-primary">Download App</button>
             </div>
 
-            <!----Image------->
+            <!-----Image---------->
             <div class="md:w-1/2">
               <img src="assets/hero4.png" alt="Mobile app with a wallet" />
             </div>
