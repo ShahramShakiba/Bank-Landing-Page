@@ -16,4 +16,11 @@
     background: linear-gradient(180deg, #171717, #383222, #171717);
   }
 
+  .left-blob {
+    @apply w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-color-blob absolute left-0 md:left-0 xl:left-0 -z-10 blur-3xl  opacity-30 overflow-hidden rounded-full;
+  }
+
+  .right-blob {
+    @apply w-52 h-52 lg:w-64 lg:h-64 xl:w-72 xl:h-72 2xl:w-96 2xl:h-96 bg-amber-300 absolute right-10 md:right-0 lg:right-10 xl:right-6 -z-10 blur-3xl overflow-hidden rounded-full;
+  }
 }
