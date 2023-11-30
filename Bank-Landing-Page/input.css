@@ -11,4 +11,8 @@
   .title {
     @apply text-3xl md:text-4xl font-bold leading-snug mb-2 md:mb-4;
   }
+
+  .bg-amber-neutral {
+    background: linear-gradient(180deg, #171717, #383222, #171717);
+  }
 }
