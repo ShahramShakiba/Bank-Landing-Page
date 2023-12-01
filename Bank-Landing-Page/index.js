@@ -20,4 +20,25 @@ navLinks.forEach((link) => {
   });
 });
 
+//==>> Testimonial ================================
+const customerImages = document.querySelectorAll('.customer-img'),
+  customerTexts = document.querySelectorAll('.customer-txt');
 
+const showFeedback = (e) => {
+  customerImages.forEach((img) => {
+    img.classList.remove('active-pic');
+  });
+
+  customerTexts.forEach((text) => {
+    text.classList.remove('active-txt');
+  });
+
+  let index = Array.from(customerImages).indexOf(e.target);
+
+  customerImages[index].classList.add('active-pic');
+  customerTexts[index].classList.add('active-txt');
+};
+
+customerImages.forEach((img) => {
+  img.addEventListener('click', showFeedback);
+});

@@ -28,6 +28,10 @@
     transition: all 0.2s ease;
   }
 
+  .customer-img.active-pic {
+    border: 2px solid #FFCA28;
+  }
+
   .customer-txt {
     display: none;
   }
