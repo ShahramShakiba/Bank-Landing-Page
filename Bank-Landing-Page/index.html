@@ -363,7 +363,7 @@
             class="flex flex-col md:items-start justify-between space-y-6 md:flex-row md:space-y-0 md:space-x-6"
           >
             <!--step-1-->
-            <div class="text-center cursor-pointer md:w-56 lg:w-full">
+            <div class="text-center md:w-56 lg:w-full">
               <div
                 class="bg-neutral-700 inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-amber-400 hover:text-neutral-900 ease-in duration-200"
               >
@@ -376,7 +376,7 @@
             </div>
 
             <!--step-2-->
-            <div class="text-center cursor-pointer md:w-56 lg:w-full">
+            <div class="text-center md:w-56 lg:w-full">
               <div
                 class="inline-block px-6 py-3 rounded-lg cursor-pointer bg-amber-400 text-neutral-900"
               >
@@ -389,7 +389,7 @@
             </div>
 
             <!--step-3-->
-            <div class="text-center cursor-pointer md:w-56 lg:w-full">
+            <div class="text-center md:w-56 lg:w-full">
               <div
                 class="bg-neutral-700 inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-amber-400 hover:text-neutral-900 ease-in duration-200"
               >
@@ -407,7 +407,7 @@
       <!--======= Testimonial =======================-->
       <section id="testimonial">
         <div class="container py-20">
-          <div class="text-center m-auto mb-20 md:w-1/2">
+          <div class="text-center m-auto mb-10 md:w-1/2">
             <h4 class="font-bold text-amber-400 text-2xl mb-4">
               Customer Testimonial
             </h4>
@@ -415,7 +415,7 @@
           </div>
 
           <!--customer-feedback------------->
-          <div class="mt8">
+          <div class="mt-8">
             <!--img-section-->
             <div class="flex items-center justify-center flex-wrap">
               <img
@@ -450,7 +450,7 @@
             </div>
 
             <div
-              class="grid place-items-center text-center m-auto md:w-4/5 min-h-[40vh]"
+              class="grid place-items-center text-center m-auto md:w-4/5 min-h-[30vh]"
             >
               <!--Elizabeth-Anne-Johnson-->
               <div class="customer-txt active-txt">
@@ -534,6 +534,41 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!--======= Pricing ===========================-->
+      <section id="pricing" class="bg-amber-neutral">
+        <div class="container py-20">
+          <div class="text-center m-auto mb-20 md:w-1/2">
+            <h4 class="font-bold text-2xl text-amber-400 mb-4">Pricing</h4>
+            <h1 class="title">Get In Reasonable Price</h1>
+
+            <!--Switch-Button------------>
+            <div class="mt-5 flex items-center justify-center gap-4">
+              <p class="font-semibold leading-relaxed">Bill Monthly</p>
+
+              <!--toggle-->
+              <label
+                class="cursor-pointer relative inline-block w-20 h-8 rounded-full"
+              >
+                <input
+                  type="checkbox"
+                  id="toggleBtn"
+                  class="peer opacity-0 w-0 h-0"
+                />
+
+                <span
+                  class="absolute inset-0 bg-neutral-100 border border-solid border-amber-400 rounded-full duration-300 before:content-[''] before:absolute before:bg-neutral-700 before:w-7 before:h-7 before:top-[1px] before:left-[2px] before:rounded-full before:duration-300 peer-checked:before:translate-x-11 peer-checked:bg-amber-300"
+                ></span>
+              </label>
+
+              <p class="font-semibold leading-relaxed">Bill Annually</p>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="grid"></div>
         </div>
       </section>
     </main>
