@@ -11,7 +11,7 @@
   </head>
   <body class="bg-neutral-900 text-white tracking-wider">
     <!--======== Header =========================-->
-    <header>
+    <header class="sticky top-0 z-50 bg-neutral-900 opacity-90">
       <nav class="container flex justify-between items-center">
         <!--logo-->
         <div class="py-5 w-36 sm:w-40 md:w-44 xl:w-52">
@@ -174,8 +174,8 @@
 
     <main>
       <!--======= Hero ===========================-->
-      <section id="home">
-        <div class="container py-20">
+      <section id="home" class="pt-36">
+        <div class="container py-28">
           <div class="relative">
             <!--left-blob----->
             <div class="left-blob -top-20 xl:-top-6"></div>
@@ -208,7 +208,7 @@
       </section>
 
       <!--======= Features ========================-->
-      <section id="features" class="bg-amber-neutral">
+      <section id="features" class="bg-amber-neutral py-12">
         <div class="container py-20">
           <!--content-->
           <div class="text-center m-auto mb-20 md:w-1/2">
@@ -405,7 +405,7 @@
       </section>
 
       <!--======= Testimonial =======================-->
-      <section id="testimonial">
+      <section id="testimonial" class="py-12">
         <div class="container py-20">
           <div class="text-center m-auto mb-10 md:w-1/2">
             <h4 class="font-bold text-amber-400 text-2xl mb-4">
@@ -544,7 +544,7 @@
             <h4 class="font-bold text-2xl text-amber-400 mb-4">Pricing</h4>
             <h1 class="title">Get In Reasonable Price</h1>
 
-            <!--Switch-Button------------>
+            <!----- Switch-Button ------------>
             <div class="mt-5 flex items-center justify-center gap-4">
               <p class="font-semibold leading-relaxed">Bill Monthly</p>
 
@@ -558,17 +558,258 @@
                   class="peer opacity-0 w-0 h-0"
                 />
 
-                <span
-                  class="absolute inset-0 bg-neutral-100 border border-solid border-amber-400 rounded-full duration-300 before:content-[''] before:absolute before:bg-neutral-700 before:w-7 before:h-7 before:top-[1px] before:left-[2px] before:rounded-full before:duration-300 peer-checked:before:translate-x-11 peer-checked:bg-amber-300"
-                ></span>
+                <span class="toggle"></span>
               </label>
 
               <p class="font-semibold leading-relaxed">Bill Annually</p>
             </div>
           </div>
 
-          <!--  -->
-          <div class="grid"></div>
+          <!------------------- CARDS ------------------->
+          <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <!------- card-1 ------------->
+            <div class="card relative h-auto w-auto">
+              <!----front------->
+              <div
+                class="front px-7 py-11 rounded-2xl border-2 border-solid border-neutral-300 h-full w-full"
+                id="card-front-20"
+              >
+                <!--price-->
+                <div class="relative">
+                  <p
+                    class="text-4xl pl-4 font-bold before:content-['$'] before:absolute before:text-2xl before:top-0 before:left-0"
+                  >
+                    20
+                    <span class="text-base font-medium tracking-widest"
+                      >/ per month</span
+                    >
+                  </p>
+                </div>
+
+                <!--description-->
+                <div class="py-10">
+                  <h3 class="text-xl text-amber-500 font-bold pb-3">Basic</h3>
+                  <p class="leading-relaxed">
+                    For Beginner Who Want To Scale Business Globally
+                  </p>
+                </div>
+
+                <ul class="space-y-4 pb-10">
+                  <!--1-->
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6 inline-block text-amber-400"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <span class="pl-2">Expense Management</span>
+                  </li>
+
+                  <!--2-->
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6 inline-block text-amber-400"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <span class="pl-2">Card Management</span>
+                  </li>
+
+                  <!--3-->
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6 inline-block text-neutral-200"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <span class="pl-2">Instant Statistics</span>
+                  </li>
+
+                  <!--4-->
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6 inline-block text-neutral-200"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <span class="pl-2">Bookmark Function</span>
+                  </li>
+
+                  <!--5-->
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6 inline-block text-neutral-200"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <span class="pl-2">Accounting System</span>
+                  </li>
+                </ul>
+
+                <button class="card-btn">Get Plan</button>
+              </div>
+
+              <!-----backside--------->
+              <div
+                class="back rotate-y-180 px-7 py-11 rounded-2xl border-2 border-solid border-neutral-300 h-full w-full top-0 left-0"
+                id="card-backside-120"
+              >
+                <!--price-->
+                <div class="relative">
+                  <p
+                    class="text-4xl pl-4 font-bold before:content-['$'] before:absolute before:text-2xl before:top-0 before:left-0"
+                  >
+                    120
+                    <span class="text-base font-medium tracking-widest"
+                      >/ per month</span
+                    >
+                  </p>
+                </div>
+
+                <!--description-->
+                <div class="py-10">
+                  <h3 class="text-xl text-amber-500 font-bold pb-3">Basic</h3>
+                  <p class="leading-relaxed">
+                    For Beginner Who Want To Scale Business Globally
+                  </p>
+                </div>
+
+                <ul class="space-y-4 pb-10">
+                  <!--1-->
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6 inline-block text-amber-400"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <span class="pl-2">Expense Management</span>
+                  </li>
+
+                  <!--2-->
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6 inline-block text-amber-400"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <span class="pl-2">Card Management</span>
+                  </li>
+
+                  <!--3-->
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6 inline-block text-neutral-200"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <span class="pl-2">Instant Statistics</span>
+                  </li>
+
+                  <!--4-->
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6 inline-block text-neutral-200"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <span class="pl-2">Bookmark Function</span>
+                  </li>
+
+                  <!--5-->
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="w-6 h-6 inline-block text-neutral-200"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+
+                    <span class="pl-2">Accounting System</span>
+                  </li>
+                </ul>
+
+                <button class="card-btn">Get Plan</button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

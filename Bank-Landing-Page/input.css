@@ -57,4 +57,26 @@
       opacity: 1;
     }
   }
+
+  .toggle {
+    @apply absolute inset-0 bg-neutral-100 border border-solid border-amber-400 rounded-full duration-300 before:content-['$'] before:absolute before:bg-neutral-700 before:w-7 before:h-7 before:top-[1px] before:left-[2px] before:rounded-full before:duration-300 peer-checked:before:translate-x-11 peer-checked:bg-amber-300;
+  }
+
+  .card {
+    perspective: 1000px;
+  }
+
+  .front,
+  .back {
+    backface-visibility: hidden;
+    transition: all 0.4s ease;
+  }
+
+  .front {
+    overflow: hidden;
+  }
+
+  .card-btn {
+    @apply w-full px-9 py-3 bg-neutral-700 rounded-md capitalize font-bold hover:bg-amber-400 hover:text-neutral-700 ease-in duration-200;
+  }
 }
