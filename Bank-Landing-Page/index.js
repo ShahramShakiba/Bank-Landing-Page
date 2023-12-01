@@ -1,3 +1,5 @@
+//==>> Hamburger Menu ================================
+
 const hamburgerIcon = document.querySelector('.hamburger'),
   navList = document.querySelector('#menu'),
   navLinks = document.querySelectorAll('#menu a'),
@@ -11,9 +13,11 @@ closeIcon.addEventListener('click', () => {
   navList.classList.add('hidden');
 });
 
-// Close the menu when a link is clicked
+//Close the menu when a link is clicked
 navLinks.forEach((link) => {
   link.addEventListener('click', () => {
     navList.classList.add('hidden');
   });
 });
+
+

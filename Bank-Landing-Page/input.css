@@ -23,4 +23,34 @@
   .right-blob {
     @apply w-52 h-52 lg:w-64 lg:h-64 xl:w-72 xl:h-72 2xl:w-96 2xl:h-96 bg-amber-300 absolute right-10 md:right-0 lg:right-10 xl:right-6 -z-10 blur-3xl overflow-hidden rounded-full;
   }
+
+  .customer-img {
+    transition: all 0.2s ease;
+  }
+
+  .customer-txt {
+    display: none;
+  }
+
+  .customer-txt.active-txt {
+    display: block;
+    animation: moveUp 1s linear forwards;
+  }
+
+  @keyframes moveUp {
+    0% {
+      margin-top: 40px;
+      opacity: 0;
+    }
+
+    50% {
+      margin-top: 20px;
+      opacity: 0.1;
+    }
+
+    100% {
+      margin-top: 0px;
+      opacity: 1;
+    }
+  }
 }
