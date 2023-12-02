@@ -42,3 +42,11 @@ const showFeedback = (e) => {
 customerImages.forEach((img) => {
   img.addEventListener('click', showFeedback);
 });
+
+//==>> Pricing ===================================
+const toggleBtn = document.getElementById('toggleBtn');
+const cardFlip = document.querySelectorAll('.card-flip');
+
+toggleBtn.addEventListener('change', () => {
+  cardFlip.forEach((card) => card.classList.toggle('rotate-y-180'));
+});

@@ -66,14 +66,17 @@
     perspective: 1000px;
   }
 
-  .front,
-  .back {
+  .card-flip {
     backface-visibility: hidden;
     transition: all 0.4s ease;
   }
 
   .front {
-    overflow: hidden;
+    transform: rotateY(0deg);
+  }
+
+  .backside {
+    transform: rotateY(180deg);
   }
 
   .card-btn {
