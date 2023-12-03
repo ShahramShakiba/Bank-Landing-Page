@@ -45,10 +45,23 @@ customerImages.forEach((img) => {
 
 //==>> Pricing ===================================
 const toggleBtn = document.getElementById('toggleBtn'),
-  card_1_front = document.querySelector('#card-1-front'),
-  card_1_backside = document.querySelector('#card-1-backside');
+  leftCardFront = document.querySelector('#left-card-front'),
+  leftCardBackside = document.querySelector('#left-card-backside'),
+  middleCardFront = document.querySelector('#middle-card-front'),
+  middleCardBackside = document.querySelector('#middle-card-backside'),
+  rightCardFront = document.querySelector('#right-card-front'),
+  rightCardBackside = document.querySelector('#right-card-backside');
 
 toggleBtn.addEventListener('change', () => {
-  card_1_front.classList.toggle('-rotate-y-180');
-  card_1_backside.classList.toggle('rotate-y-180');
+  //=> Left-card
+  leftCardFront.classList.toggle('-rotate-y-180');
+  leftCardBackside.classList.toggle('rotate-y-180');
+
+  //=> Middle-card
+  middleCardFront.classList.toggle('-rotate-y-180');
+  middleCardBackside.classList.toggle('rotate-y-180');
+
+  //=> Right-card
+  rightCardFront.classList.toggle('-rotate-y-180');
+  rightCardBackside.classList.toggle('rotate-y-180');
 });
