@@ -1,4 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
+// Add this plugin for Card-flipping section of Pricing
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
   content: ['./*.{html,js}'],
 
@@ -24,5 +28,20 @@ module.exports = {
     },
   },
 
-  plugins: [],
+  plugins: [
+    // Add this plugin for Card-flipping section of Pricing
+    // Implementing new Static Utility Style
+    
+    plugin(({ addUtilities }) => {
+      addUtilities({
+        '.rotate-y-180': {
+          transform: 'rotateY(180deg)',
+        },
+
+        '.-rotate-y-180': {
+          transform: 'rotateY(-180deg)',
+        },
+      });
+    }),
+  ],
 };

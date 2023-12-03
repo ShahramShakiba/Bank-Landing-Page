@@ -44,9 +44,11 @@ customerImages.forEach((img) => {
 });
 
 //==>> Pricing ===================================
-const toggleBtn = document.getElementById('toggleBtn');
-const cardFlip = document.querySelectorAll('.card-flip');
+const toggleBtn = document.getElementById('toggleBtn'),
+  card_1_front = document.querySelector('#card-1-front'),
+  card_1_backside = document.querySelector('#card-1-backside');
 
 toggleBtn.addEventListener('change', () => {
-  cardFlip.forEach((card) => card.classList.toggle('rotate-y-180'));
+  card_1_front.classList.toggle('-rotate-y-180');
+  card_1_backside.classList.toggle('rotate-y-180');
 });
