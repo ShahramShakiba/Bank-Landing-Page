@@ -21,6 +21,7 @@ navLinks.forEach((link) => {
 });
 
 //==>> Testimonial ================================
+
 const customerImages = document.querySelectorAll('.customer-img'),
   customerTexts = document.querySelectorAll('.customer-txt');
 
@@ -44,6 +45,7 @@ customerImages.forEach((img) => {
 });
 
 //==>> Pricing ===================================
+
 const toggleBtn = document.getElementById('toggleBtn'),
   leftCardFront = document.querySelector('#left-card-front'),
   leftCardBackside = document.querySelector('#left-card-backside'),
