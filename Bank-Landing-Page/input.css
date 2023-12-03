@@ -77,6 +77,6 @@
   }
 
   .card-btn {
-    @apply w-full px-9 py-3 bg-neutral-700 rounded-md capitalize font-bold hover:bg-amber-400 hover:text-neutral-700 ease-in duration-200;
+    @apply w-full px-9 py-3 lg:mt-6 bg-neutral-700 rounded-md capitalize font-bold lg:text-lg 2xl:text-xl hover:bg-amber-400 hover:text-neutral-700 ease-in duration-200 tracking-wide hover:tracking-wider hover:font-extrabold;
   }
 }
