@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-// Add this plugin for Card-flipping section of Pricing
+//=> Add this plugin for Card-flipping section of Pricing
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
@@ -9,15 +9,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'color-primary': '#01051e',
-        'color-primary-light': '#020726',
-        'color-primary-dark': '#010417',
-        'color-gray': '#333',
         'color-blob': '#A427DF',
       },
     },
 
-    // Custom container
+    //=> Custom Container
     container: {
       center: true,
 
@@ -30,8 +26,8 @@ module.exports = {
 
   plugins: [
     // Add this plugin for Card-flipping section of Pricing
-    // Implementing new Static Utility Style
-    
+    //=> Implementing new Static Utility Style
+
     plugin(({ addUtilities }) => {
       addUtilities({
         '.rotate-y-180': {
