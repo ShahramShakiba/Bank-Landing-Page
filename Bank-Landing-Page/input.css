@@ -17,7 +17,7 @@
   }
 
   .left-blob {
-    @apply w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-color-blob absolute left-0 md:left-0 xl:left-0 -z-10 blur-3xl  opacity-30 overflow-hidden rounded-full;
+    @apply w-52 h-52 lg:w-64 lg:h-64 xl:w-80 xl:h-80 2xl:w-96 2xl:h-96 bg-color-blob absolute left-0 md:left-0 xl:left-0 -z-10 blur-3xl  opacity-10 overflow-hidden rounded-full;
   }
 
   .right-blob {

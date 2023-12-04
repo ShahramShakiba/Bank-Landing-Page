@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="assets/ico.png" />
@@ -189,27 +189,32 @@
             <div class="left-blob -top-20 xl:-top-6"></div>
             <!--right-blob---->
             <div
-              class="right-blob top-[35rem] md:top-32 xl:top-52 opacity-20"
+              class="right-blob top-[35rem] md:top-32 xl:top-52 opacity-10"
             ></div>
           </div>
 
-          <div class="flex flex-col items-center z-0 md:flex-row">
+          <div class="flex flex-col items-center z-0 md:flex-row lg:gap-x-10">
             <!-----Content--------->
             <div class="mb-12 md:w-1/2 md:mr-10">
               <h1 class="title">Awesome App for Your Financial.</h1>
 
               <p class="leading-relaxed mb-10">
-                This should be used to tell a story and let your users know a
-                little more about the app and its use, and how it can benefit
-                them.
+                It is highly recommended that you utilize our banking
+                application for an effortless, secure, and convenient banking
+                experience right at your fingertips.
               </p>
 
               <button class="btn-primary">Download App</button>
             </div>
 
-            <!-----Image---------->
+            <!-----Video---------->
             <div class="md:w-1/2">
-              <img src="assets/hero4.png" alt="Mobile app with a wallet" />
+              <video
+                class="rounded-lg xl:w-11/12 xl:ml-8 2xl:w-3/4 2xl:ml-36"
+                src="./assets/Demo-1.mp4"
+                autoplay
+                loop
+              ></video>
             </div>
           </div>
         </div>
@@ -324,7 +329,7 @@
 
       <!--======= Saving-Money ======================-->
       <section id="saving-money">
-        <div class="container py-20 ">
+        <div class="container py-36">
           <!--left-blob----->
           <div class="left-blob md:top-40 xl:top-28"></div>
           <!--right-blob----->
@@ -337,7 +342,12 @@
           >
             <!--image-------------->
             <div class="mb-12 md:w-1/2">
-              <img src="./assets/hero3.png" alt="Wallet and Cash" />
+              <video
+                class="rounded-lg xl:w-3/4 2xl:w-3/5"
+                src="./assets/Demo-2.mp4"
+                autoplay
+                loop
+              ></video>
             </div>
 
             <!--content------------>
@@ -458,17 +468,17 @@
             </div>
 
             <div
-              class="grid place-items-center text-center m-auto md:w-4/5 min-h-[30vh] "
+              class="grid place-items-center text-center m-auto md:w-4/5 min-h-[30vh]"
             >
               <!--Elizabeth-Anne-Johnson-->
-              <div class="customer-txt active-txt ">
+              <div class="customer-txt active-txt">
                 <p class="md:text-xl mb-6">
                   "The bank application is user-friendly and easy to navigate. I
                   love the convenience of being able to access my account
                   information and make transactions on the go."
                 </p>
 
-                <h4 class="font-bold text-amber-400 mb-1">
+                <h4 class="font-bold text-amber-400 mb-2">
                   Elizabeth Anne Johnson
                 </h4>
                 <p class="bg-neutral-700 rounded-lg px-4 py-1 w-max mx-auto">
@@ -485,7 +495,7 @@
                   authentication."
                 </p>
 
-                <h4 class="font-bold text-amber-400 mb-1">
+                <h4 class="font-bold text-amber-400 mb-2">
                   Samantha Marie Rodriguez
                 </h4>
                 <p class="bg-neutral-700 rounded-lg px-4 py-1 w-max mx-auto">
@@ -501,7 +511,7 @@
                   to a representative and receive prompt assistance."
                 </p>
 
-                <h4 class="font-bold text-amber-400 mb-1">
+                <h4 class="font-bold text-amber-400 mb-2">
                   Benjamin James Smith
                 </h4>
                 <p class="bg-neutral-700 rounded-lg px-4 py-1 w-max mx-auto">
@@ -517,7 +527,7 @@
                   informed decisions about my money."
                 </p>
 
-                <h4 class="font-bold text-amber-400 mb-1">
+                <h4 class="font-bold text-amber-400 mb-2">
                   Katherine Grace Lee
                 </h4>
                 <p class="bg-neutral-700 rounded-lg px-4 py-1 w-max mx-auto">
@@ -533,7 +543,7 @@
                   complete transactions, which can be frustrating."
                 </p>
 
-                <h4 class="font-bold text-amber-400 mb-1">
+                <h4 class="font-bold text-amber-400 mb-2">
                   William Alexander Brown
                 </h4>
                 <p class="bg-neutral-700 rounded-lg px-4 py-1 w-max mx-auto">
@@ -546,14 +556,14 @@
       </section>
 
       <!--======= Pricing ===========================-->
-      <section id="pricing" class="bg-amber-neutral z-10"">
+      <section id="pricing" class="bg-amber-neutral py-6">
         <div class="container py-20">
-          <div class="text-center m-auto mb-20 md:w-1/2 >
+          <div class="text-center m-auto mb-20 md:w-1/2">
             <h4 class="font-bold text-2xl text-amber-400 mb-4">Pricing</h4>
             <h1 class="title">Get In Reasonable Price</h1>
 
             <!----- Switch-Button ------------>
-            <div class="mt-5 flex items-center justify-center gap-4 ">
+            <div class="mt-5 flex items-center justify-center gap-4">
               <p class="font-semibold leading-relaxed">Bill Monthly</p>
 
               <!--toggle-->
@@ -1406,7 +1416,7 @@
       </section>
 
       <!--======= Blog ==============================-->
-      <section id="blog">
+      <section id="blog" class="py-8">
         <div class="container py-20">
           <div class="text-center m-auto mb-20 md:w-1/2">
             <h4 class="font-bold text-lg text-amber-400 mb-4">
@@ -1425,7 +1435,7 @@
               <!--image-->
               <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
                 <img
-                  src="./assets/blog1.jpg"
+                  src="./assets/cheerUp.jpg"
                   alt=""
                   class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out"
                 />
@@ -1471,7 +1481,7 @@
               <!--image-->
               <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
                 <img
-                  src="./assets/blog2.jpg"
+                  src="./assets/analyzing.jpg"
                   alt=""
                   class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out"
                 />
@@ -1517,7 +1527,7 @@
               <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
                 <!--image-->
                 <img
-                  src="./assets/blog3.jpg"
+                  src="./assets/small-business.jpg"
                   alt=""
                   class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out"
                 />
@@ -1598,7 +1608,7 @@
       </section>
 
       <!--======= Contact ===========================-->
-      <section id="contact">
+      <section id="contact" class="py-20">
         <div class="container py-20">
           <div class="text-center m-auto mb-20 md:w-1/2">
             <h4 class="font-bold text-amber-400 mb-4">Have A Question</h4>
@@ -1660,9 +1670,9 @@
                 <h4 class="font-bold text-lg text-amber-100">About App</h4>
 
                 <p class="leading-relaxed">
-                  This Should Be Used To Tell A Story And Include Any
-                  Testimonials You Might Have About Your Product Or Service For
-                  Your Clients
+                  Our banking application provides a secure, efficient, and
+                  user-friendly platform for managing your financial
+                  transactions with ease and convenience.
                 </p>
 
                 <!--Social-Media-->
