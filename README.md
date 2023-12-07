@@ -1,5 +1,7 @@
 # Bank Landing Page  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/></a> 
-**_Description_** :<br/>
+
+<!----------------------------------------- Description ---------------------------------------->
+**<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" />&nbsp; Description** :<br/>
   > This is a _Practice-Project_ to create a Landing Page to practice `  Tailwindcss  `.  <br/>
   
 The main emphasis of this project is on designing a ` clean `  and  ` uncomplicated layout `  while ensuring the site is  ` responsive ` to different screen sizes. <br/>
@@ -11,8 +13,16 @@ The main emphasis of this project is on designing a ` clean `  and  ` uncomplica
   This makes it easier for users to access the site from wherever they are, increasing the reach of the site.
    <br/><br/>
 
+<!----------------------------------------- try it live ---------------------------------------->
+ ### Give it a go in real-time and give me a Star <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Dizzy.webp" alt="Dizzy" width="35" />
+ <a href="https://shahramshakiba.github.io/HomeSmart-Landing-Page/" target="_blank">
+   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" height="25" /> Bank-Landing-Page Demo
+</a> <br/><br/>
 
-### 🎬
+
+
+<!------------------------------------------- Video ------------------------------------------->
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Clapper%20Board.webp" alt="Clapper Board" width="55" />
 
 https://github.com/ShahramShakiba/Bank-Landing-Page/assets/110089830/152aebaf-07e1-46bf-9224-d001c59506a7
 
@@ -21,7 +31,8 @@ https://github.com/ShahramShakiba/Bank-Landing-Page/assets/110089830/152aebaf-07
 
 <br/>
 
-   ### You can find me around the Web
+<!------------------------------------------- Social-Media ------------------------------------------->
+   ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Telephone.webp" alt="Telephone" width="55"  /> You can find me around the Web
  <a href="https://www.linkedin.com/in/shahramshakiba/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a> &nbsp;&nbsp;&nbsp;
