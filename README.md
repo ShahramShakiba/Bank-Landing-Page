@@ -15,7 +15,7 @@ The main emphasis of this project is on designing a ` clean `  and  ` uncomplica
 
 <!----------------------------------------- try it live ---------------------------------------->
  ### Give it a go in real-time and give me a Star <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Dizzy.webp" alt="Dizzy" width="35" />
- <a href="https://shahramshakiba.github.io/HomeSmart-Landing-Page/" target="_blank">
+ <a href="https://shahramshakiba.github.io/Bank-Landing-Page/" target="_blank">
    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp" alt="Light Bulb" width="25" height="25" /> Bank-Landing-Page Demo
 </a> <br/><br/>
 
